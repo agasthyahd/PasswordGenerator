@@ -19,11 +19,9 @@ if __name__ == '__main__':
     pass_list.extend(list(s3)*10)
 
     random.shuffle(pass_list)
-    print(pass_list)
 
 
     pass_generated = "".join(pass_list[0:(pass_len)])
 
     printsent='Password generated!\nYour password is {}';
     print(printsent.format(pass_generated))
-    print(len(pass_generated))
