@@ -6,11 +6,10 @@ import random
 if __name__ == '__main__':
 
     s = string.ascii_lowercase
-    # print(s)
     s2 = string.ascii_uppercase
 
     s3 = string.digits
-    # print(s3)
+
 
     pass_len = int(input('Enter the length of your password.\n'))
     pass_list = []
